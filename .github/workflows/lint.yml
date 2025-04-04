@@ -16,9 +16,9 @@ jobs:
         python-version: '3.x'
 
     - name: Install Pycodestyle
-      run: 
+      run: |
         pip install pycodestyle
 
     - name: Lint Python files with Pycodestyle
-      run:
+      run: |
         pycodestyle .
